@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel ="stylesheet" href="Lesson-8.css">
+</head>
+
+
+
+
+
+<body>    
+<h1 style ="text-align: center;" >Lesson 7: HTML Forms </h1>
+
+
+<h2>Register</h2>
+<p>
+    Http istekleri<br> 
+post - create<br>
+get - read<br>
+put - update<br>
+delete - delete
+</p>
+
+
+
+<br>
+<br>
+<br>
+    <!--Her İnput için label oluştur!!!!-->
+<form action = "Lesson-6.html" method="post">
+
+
+
+
+
+
+
+
+
+
+
+    <label type ="uname"> Username:</label>
+<input type = "text" id="uname" size="10" placeholder="Username">
+<br>
+Name:
+<input type ="text">
+<br>
+ Password: <input type = "password">
+ <br>
+ E-mail: 
+<input type = "email">
+<br>
+Agreement our all privacy
+<input type = "checkbox">
+<br>
+<br>
+Tuttuğunuz takım:
+<br>
+<input type = "radio" value ="Beşiktaş">
+Beşiktaş
+<input type = "radio" value ="Galatasaray">
+Galatasaray
+<input type = "radio" value ="Fenerbahçe">
+Fenerbahçe
+
+<br>
+<input type = "button" value="Register" style ="text-align: end;">
+</form>
+<br>
+<br>
+<br>
+
+Hangi ilde yaşıyorsunuz <br>
+<select name ="Cities">
+    <option value = "İstanbul">İstanbul</option>
+    <option value = "Samsun">Samsun</option>
+    <option value = "Ankara">Ankara</option>
+    <option value = "İzmir">İzmir</option>
+</select>
+<br>
+<br>
+
+
+
+<h2>İstek Dilek ve Görüşleriniz::</h2>
+<form>
+Name:<br>
+<input id = "x" type = "text"><br>
+Surname:<br>
+<input class = "y r" type = "text"><br>
+Görüşleriniz:<br>
+<textarea class = "z" name ="Message" rows="10" cols = "50"></textarea><br>
+
+<button type = "button" onclick ="alert('Gönderiniz alınmıştır...')">
+    Submit
+</button>
+
+
+
+
+
+</form>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

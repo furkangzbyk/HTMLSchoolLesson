@@ -1,0 +1,42 @@
+/* simple selector */
+p{
+color: blanchedalmond;
+}
+
+
+ /* class için selector */
+.y {
+    background-color: aqua;
+}
+
+.z{
+    color: red; 
+  font-size: 12px;   /* property: value; --->Syntax */
+  background-color: black;
+}
+
+/* id için selector */
+
+#x {
+   font: 100px;
+   border-style: outset;
+   border-width: 2px;
+   border-color: red yellow blue black;
+   color: aqua;
+   ;
+}
+
+p.y {
+    color: black ;
+}
+
+.r-w3-bar-item {
+    color: red;
+    border-color: aqua;
+}
+
+.w3-bar{
+    border: 3px solid red;
+    margin: 50px;
+    padding: 20px 10px 5px 24px;
+}
